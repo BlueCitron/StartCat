@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>Music</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='dir'  url="클래식">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>클래식</listTitle>
+							</list>
+							<list  class='list' type='dir' url="발라드">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>발라드</listTitle>
+							</list>
+							<list  class='list' type='dir' url="가요">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>가요</listTitle>
+							</list>	
+							<list  class='list' type='dir' url="팝">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>팝</listTitle>
+							</list>	
+					</listGroup>		
+			</page>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='dir'  url="OST">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>OST</listTitle>
+							</list>						
+							<list  class='list' type='dir' url="Instrumental">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>Instrumental</listTitle>
+							</list>	
+							<list  class='list' type='dir' url="R&amp;B">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>R&amp;B</listTitle>
+							</list>		
+							<list  class='list' type='dir' url="일렉트로니카">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>일렉트로니카</listTitle>
+							</list>																					
+					</listGroup>		
+			</page>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='dir'  url="J-POP">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>J-POP</listTitle>
+							</list>	
+							<list  class='list' type='dir'  url="재즈">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>재즈</listTitle>
+							</list>		
+							<list  class='list' type='dir'  url="뉴에이지">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>뉴에이지</listTitle>
+							</list>		
+							<list  class='list' type='dir'  url="월드뮤직">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>월드뮤직</listTitle>
+							</list>																																								
+					</listGroup>		
+			</page>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='dir'  url="HIPHOP">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>HIPHOP</listTitle>
+							</list>						
+							<list  class='list' type='dir'  url="기타">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>기타</listTitle>
+							</list>																																								
+					</listGroup>		
+			</page>
+</pageGroup>

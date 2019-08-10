@@ -1,0 +1,63 @@
+﻿/*save as utf-8*/
+.mediaBox {
+	background-color:#fff; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+    position:relative;
+}
+.page{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	
+}
+
+.buttonGroup{
+	padding: 12px,0px,0px,5px
+
+}
+
+.button{
+	float: left;
+	position: relative;
+	width: 58px;
+	overflow: hidden;
+
+}
+
+.button a {
+	color:#fff;
+	border: none;
+	text-decoration:none;
+}
+
+.button a:hover {
+	color:#ffa426;
+	border: none;
+	text-decoration:none;
+}
+
+.buttonImg{
+	cursor: pointer;
+	width : 33px;
+	height : 34px;
+}
+
+.buttonText{
+	width: 58px;
+	height: 14px;
+	padding-top : 3px;
+	font-family: 돋움, dotum, 굴림,arial,helvetica,sans-serif;
+	font-size: 11px;
+	text-overflow : ellipsis; overflow : hidden;
+	color: #fff;
+}
+
+.clearDiv{
+	clear: both;
+}
+

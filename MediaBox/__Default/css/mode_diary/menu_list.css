@@ -1,0 +1,1668 @@
+﻿/*important - save as utf-8*/
+
+
+.headerBox {
+	font-family: arial,helvetica,sans-serif;
+	padding-left: 0px;
+	height: 24	px;
+	width: 100%;
+	line-height: 24px;
+	color:#fff;
+
+	overflow:hidden;
+	position:relative;
+
+	background-color:#666;
+
+}
+
+
+.headerTitle {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial,helvetica,sans-serif;	
+	text-align: left;
+	color:#fff;
+
+	float: left;
+	margin-left:5;
+	margin-right:5;
+
+	top: 50%;
+	margin-top : -12px;
+	position:relative;
+}
+
+.headerTitleWait{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial,helvetica,sans-serif;	
+	text-align: left;
+	color:#ADD721;
+	float: left;
+	margin-left:5;
+	margin-right:5;
+
+	top: 50%;
+	margin-top : -12px;
+	position:relative;
+}
+
+
+.headerTitle a {
+	color:#fff;
+	border: none;
+	text-decoration:none;
+}
+
+.headerTitle a:hover {
+	color:#ffa426;
+	border: none;
+	text-decoration:none;
+}
+
+#leftMonth
+{
+	margin:4 0 0 1;
+	cursor: hand;
+	float:left;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/left.jpg) no-repeat  center;
+
+}
+
+#rightMonth
+{	margin:4 0 0 0;
+	cursor: hand;
+	float:left;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/right.jpg) no-repeat  center;
+}
+
+
+#setup
+{
+	margin:4 0 0 0;
+	cursor: hand;
+	float:right;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/setup.jpg) no-repeat  center;
+}
+
+
+#newDiary
+{
+	margin:4 8 0 0;
+	cursor: hand;
+	float:right;
+	float: right;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/add.jpg) no-repeat  center;
+}
+
+#calendar
+{
+	margin:4 2 0 0;
+	cursor: hand;
+	float:right;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/calendar.jpg) no-repeat  center;
+}
+
+#thisMonth
+{
+	margin:4 2 0 0;
+	cursor: hand;
+	float:right;
+	width: 16px;
+	height:16px;
+	background: url(../../img/mode_diary/clock.jpg) no-repeat  center;
+}
+
+
+ .container{
+	background-color:#fff; 
+	border: 1px solid #666666;
+ }
+
+
+
+/*******************************************************
+ * pwdbox
+ *
+ *******************************************************/
+.pwdBox{
+	background-color:#000; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+}
+
+.pwdBoxWait
+{
+	background-color:#000; 
+ 
+	 width:100%;
+	height: 100%;
+	background: url(../../img/mode_diary/loader_white.gif) no-repeat  center;
+}
+
+
+/**/
+
+.pwdBoxReqKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.pwdBoxReqKeyMsg
+{
+	margin-top:20px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/key_input_img.jpg) no-repeat  center;
+}
+
+.pwdBoxReqKeyMsgOuter
+{
+	margin-top:20px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/key_input_outer_img.jpg) no-repeat  center;
+}
+
+.pwdBoxReqKeyMsgOuterReadOnly
+{
+	margin-top:20px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/key_input_outer_readonly_img.jpg) no-repeat  center;
+}
+
+.pwdBoxReqKeyMsgInvalid
+{
+	margin-top:44px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/key_input_invalid_img.jpg) no-repeat  center;
+}
+
+.pwdBoxReqKeyMsgIdle
+{
+	margin-top:44px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/key_input_idle_img.jpg) no-repeat  center;
+}
+
+.pwBoxOpenDiary{
+	float: right;
+	width:16px;
+	height:16px;
+	background: url(../../img/mode_diary/outerdiary_img.jpg) no-repeat  center;
+	cursor: hand;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.pwdBoxReqKeyInput
+{
+
+
+}
+ 
+#pwdBoxReqInputKeyTxt
+{
+ margin-left:25px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_pwd.gif) no-repeat  left;
+}
+#pwdBoxReqInputKeyContain{ 
+
+	float: left;
+}
+#pwdBoxReqInputKey
+{
+ margin-left:25px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#pwdBoxReqInputSubmit
+{	
+ margin-left:10px;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../../img/mode_diary/confirm_img_small.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+
+/*change*/
+
+.pwdBoxChangeKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+.pwdBoxChangeKeyMsg
+{
+	margin-top:40px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_change_txt.gif) no-repeat  center;
+}
+
+.pwdBoxChangeKeyMsgMatchFail
+{
+	margin-top:40px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_curkey_invalid.gif) no-repeat  center;
+}
+
+
+.pwdBoxChangeKeyMsgInvalid
+{
+	margin-top:40px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey_invalid.gif) no-repeat  center;
+}
+
+.pwdBoxChangeKeyMsgSame
+{
+	margin-top:40px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey_same.gif) no-repeat  center;
+}
+
+.pwdBoxChangeKeyInput
+{
+ 
+}
+
+#pwdBoxChangeKeyInputCurKeyTxt
+{
+ margin-left:36px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_curkey.gif) no-repeat  left;
+}
+
+
+#pwdBoxChangeKeyInputCurKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#pwdBoxChangeKeyInputKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#pwdBoxChangeKeyInputConfirmKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+
+#pwdBoxChangeKeyInputKeyTxt
+{
+ margin-left:36px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey.gif) no-repeat  left;
+}
+
+#pwdBoxChangeKeyInputConfirmKeyTxt
+{margin-left:36px;
+
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey_confirm.gif) no-repeat  left;
+}
+
+#pwdBoxChangeKeyBtn
+{
+margin-top: 5px;
+padding-left:35px;
+padding-right:35px;
+width: 100%;
+ 
+}
+
+#pwdBoxChangeKeyBtnSubmit
+{
+	float: left;
+    width: 32px;
+	height: 32px;
+	background: url(../../img/mode_diary/btn_confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+#pwdBoxChangeKeyBtnCancel
+{
+	float: right;
+    width: 32px;
+	height: 32px;
+	background: url(../../img/mode_diary/btn_cancel.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+/*change same key*/
+.pwdBox_changeSameKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.pwdBox_changeSameKeyMsg
+{
+	margin-top:20px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/changeSameKeyMsg.gif) no-repeat  center;
+}
+
+.pwdBox_changeSameKeyBtn
+{
+	margin-top: 30px;
+	padding-left:15px;
+	padding-right:15px;
+	width: 100%;
+ 
+}
+
+.pwdBox_changeSameKeyBtnYes
+{	
+ 
+ 
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/yes.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+
+}
+
+.pwdBox_changeSameKeyBtnNo
+{
+ 
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/no.jpg) no-repeat  center;
+	float: right;
+	cursor: hand;
+}
+
+/*changeSameKey_changed*/
+.pwdBox_changeSameKey_changed
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.pwdBox_changeSameKey_changedMsg
+{
+	margin-top:20px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/jopcomplete.gif) no-repeat  center;
+}
+
+.pwdBox_changeSameKey_changedBtn
+{
+	margin-top:30px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+/*waitChangeSameKey*/
+
+.pwdBox_waitChangeSameKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.pwdBox_waitChangeSameKeyMsg
+{
+	margin-top:20px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 128px;
+	background: url(../../img/mode_diary/waitChangeSameKeyMsg.gif) no-repeat  center;
+}
+
+ 
+
+.pwdBox_waitChangeSameKeyLoad
+{	
+ 
+	width: 100%;
+	height: 32px;
+	background: url(../../img/mode_diary/loader_white.gif) no-repeat  center;
+ 
+
+}
+
+
+
+/**/
+
+.pwdBoxNewKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+.pwdBoxNewKeyMsg
+{
+	margin-top:35px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_inpunewkey.gif) no-repeat  center;
+}
+
+.pwdBoxNewKeyMsgInvalid
+{
+	margin-top:50px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey_invalid.gif) no-repeat  center;
+}
+
+.pwdBoxNewKeyInput
+{
+	
+
+}
+
+#pwdBoxNewKeyInputKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#pwdBoxNewKeyInputConfirmKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+
+#pwdBoxNewKeyInputKeyTxt
+{
+ margin-left:36px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey.gif) no-repeat  left;
+}
+
+#pwdBoxNewKeyInputConfirmKeyTxt
+{margin-left:36px;
+	margin-top: 8px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_newkey_confirm.gif) no-repeat  left;
+}
+
+#pwdBoxNewKeyInputSubmit
+{
+	margin-top: 21px;
+    width: 100%;
+	height: 32px;
+	background: url(../../img/mode_diary/confirm_img.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+.pwdBoxNewKeySaved
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+
+.pwdBoxNewKeySavedMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_saved.gif) no-repeat  center;
+
+}
+
+.pwdBoxNewKeySavedMsg_err_readonly
+{
+	margin-top:50px;
+	width: 100%;
+	height: 61px;
+	background: url(../../img/mode_diary/err_readonly_txt.jpg) no-repeat  center;
+}
+
+
+.pwdBoxNewKeySavedBtn
+{
+	margin-top:70px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+/*err*/
+.errFatal{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.errFatal_msg_unableToOpenDiary{
+	margin-top:70px;
+	width: 100%;
+	height: 65px;
+	background: url(../../img/mode_diary/errFatal_msg_unableToOpenDiary.jpg) no-repeat  center;
+}
+
+.errFatal_confirm{
+
+	margin-top:50px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+/*******************************************************
+ * editBox
+ *
+ *******************************************************/
+#editBox {
+	background-color:#fff; 
+ 
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+ 
+}
+
+.editBoxPopup
+{
+    width: 100%;
+	height: 100;
+}
+
+
+
+#editBoxContent{
+ 	background-color:#6B91B5;
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 1px solid #433B67;
+
+}
+
+#editBoxContentTextBoxTitle{
+	margin-top: 5px;
+    width: 100%;
+	height:20px;
+}
+
+
+#editBoxContentTextBoxTitleText{
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 13px;	
+	color: #444;
+	word-break:break-all;
+
+	margin: 0 5 0 5;
+    width: 100%;
+	height:20px;
+
+	border: black 2px dotted;
+}
+
+#editBoxContentTextBoxContent{
+ 
+    width: 100%;
+	height:208px;
+}
+
+#editBoxContentTextBoxContentText{
+
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 13px;	
+	color: #444;
+	word-break:break-all;
+
+	margin: 0 5 0 5;
+    width: 100%;
+	height:208px;
+
+	border: black 2px dotted;
+}
+
+
+#editBoxContentBtnBox
+{
+	padding-top: 3px;
+	background-color: #5D6F85;
+	height:100%;
+    width: 100%;
+}
+
+#editBoxContentBtnBoxClose
+{
+	float: right;
+	margin-right: 5px;
+	height:16px;
+    width: 16px;
+	background: url(../../img/mode_diary/btn_exit.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+#editBoxContentBtnBoxSave
+{	
+	margin-right: 20px;
+	float: right;
+	height:16px;
+    width: 16px;
+	background: url(../../img/mode_diary/btn_save.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+#editBoxContentBtnBoxDiffKeySave
+{	
+	margin-right: 5px;
+	float: right;
+	height:16px;
+    width: 16px;
+	background: url(../../img/mode_diary/btn_save_diffkey.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+.editBoxPopupConfirm
+{
+	width: 100%;
+		height: 100;
+	 background-color:#000; 
+}
+
+ 
+
+.editBoxPopupConfirmCancelBtnNo
+{
+
+	margin-left: 5px;
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/no.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+}
+
+
+
+.editBoxPopupConfirmSaveMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/confirm_save_txt.gif) no-repeat  center;
+}
+
+.editBoxPopupConfirmSaveBtn
+{
+	margin-top: 50px;
+	padding-left:15px;
+	padding-right:15px;
+	width: 100%;
+ 
+}
+
+.editBoxPopupConfirmSaveBtnYes
+{
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/yes.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+
+}
+
+.editBoxPopupConfirmSaveBtnNo
+{
+
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/no.jpg) no-repeat  center;
+	float: right;
+	cursor: hand;
+}
+
+.editBoxPopupDataEmpty
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.editBoxPopupDataEmptyMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/empty_txt.gif) no-repeat  center;
+
+}
+
+.editBoxPopupDataEmptyBtn
+{
+	margin-top:70px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+.editBoxPopupDataNotChanged
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.editBoxPopupDataNotChangedMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/nochanged_txt.gif) no-repeat  center;
+
+}
+
+.editBoxPopupDataNotChangedBtn
+{
+	margin-top:70px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+.editBoxPopupDataSaved
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.editBoxPopupDataSavedMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/saved_txt.gif) no-repeat  center;
+
+}
+
+.editBoxPopupDataSavedMsg_err_readonly
+{
+	margin-top:50px;
+	width: 100%;
+	height: 61px;
+	background: url(../../img/mode_diary/err_readonly_txt.jpg) no-repeat  center;
+
+}
+
+
+.editBoxPopupDataSavedBtn
+{
+	margin-top:70px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+
+.editBoxPopupWaitSave
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.editBoxPopupWaitSaveImg
+{
+	 width:100%;
+	height: 100%;
+	background: url(../../img/mode_diary/loader_white.gif) no-repeat  center;
+}
+
+/*diff key*/
+
+.editBoxPopupNewKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+.editBoxPopupNewKeyMsg
+{
+	margin-top:20px;
+	width: 100%;
+	height: 65px;
+	background: url(../../img/mode_diary/key_save_diffkey.jpg) no-repeat  center;
+}
+
+.editBoxPopupNewKeyMsgInvalid
+{
+	margin-top:50px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/key_save_diffkey_invalid.gif) no-repeat  center;
+}
+
+.editBoxPopupNewKeyInput
+{
+	
+
+}
+
+#editBoxPopupNewKeyInputKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#editBoxPopupNewKeyInputConfirmKey
+{
+margin-left:36px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+
+#editBoxPopupNewKeyInputKeyTxt
+{
+ margin-left:36px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_save_diffkey_key.gif) no-repeat  left;
+}
+
+#editBoxPopupNewKeyInputConfirmKeyTxt
+{margin-left:36px;
+	margin-top: 8px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_save_diffkey_keyconfirm.gif) no-repeat  left;
+}
+
+ 
+
+#editBoxPopupNewKeyBtn
+{
+margin-top: 21px;
+width:100%;
+padding-left:35px;
+padding-right:35px;
+
+}
+
+#editBoxPopupNewKeyBtnSubmit
+{
+ 
+	float: left;
+    width: 32px;
+	height: 32px;
+	background: url(../../img/mode_diary/btn_confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+#editBoxPopupNewKeyBtnCancel
+{
+ 
+	float: right;
+    width: 32px;
+	height: 32px;
+	background: url(../../img/mode_diary/btn_cancel.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+/*******************************************************
+ *  viewBox
+ *
+ *******************************************************/
+
+#viewBox {
+	background-color:#fff; 
+
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+ 
+}
+
+.viewBoxPopup
+{
+    width: 100%;
+	height: 100;
+	 background-color:#000; 
+}
+
+.viewBoxPopupWait
+{
+  width: 100%;
+	height: 100%;
+	 
+	background: url(../../img/mode_diary/loader.gif) no-repeat  center;
+}
+
+.viewBoxPopupWaitWithKey
+{
+  width: 100%;
+	height: 100%;
+	 background-color:#0; 
+	background: url(../../img/mode_diary/loader_white.gif) no-repeat  center;
+}
+
+
+.viewBoxPopupWaitDel
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.viewBoxPopupWaitDelImg
+{
+	 width:100%;
+	height: 100%;
+	background: url(../../img/mode_diary/loader_white.gif) no-repeat  center;
+}
+
+.viewBoxPopupDataDeleted
+{
+	 width:100%;
+	height: 100%;
+	 background-color:#000; 
+}
+
+.viewBoxPopupDataDeletedMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/deleted_txt.gif) no-repeat  center;
+
+}
+
+.viewBoxPopupDataDeletedMsg_err_readonly
+{
+	margin-top:50px;
+	width: 100%;
+	height: 61px;
+	background: url(../../img/mode_diary/err_readonly_txt.jpg) no-repeat  center;
+
+}
+
+
+.viewBoxPopupDataDeletedBtn
+{
+	margin-top:70px;
+	width: 100%;
+	height: 35px;
+	background: url(../../img/mode_diary/confirm.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+
+.viewBoxPopupConfirmDel
+{
+	width: 100%;
+	height: 100;
+	 background-color:#000; 
+ 
+}
+
+.viewBoxPopupConfirmDelMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 14px;
+	background: url(../../img/mode_diary/confirm_del_txt.gif) no-repeat  center;
+
+}
+
+.viewBoxPopupConfirmDelBtn
+{
+	margin-top: 50px;
+	width: 100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.viewBoxPopupConfirmDelBtnYes
+{
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/yes.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+}
+
+.viewBoxPopupConfirmDelBtnNo
+{
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/no.jpg) no-repeat  center;
+	float: right;
+	cursor: hand;
+}
+
+
+.viewBoxPopupConfirmEdit
+{
+	width: 100%;
+	height: 100;
+	 background-color:#000; 
+ 
+}
+
+.viewBoxPopupConfirmEditMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 14px;
+	background: url(../../img/mode_diary/confirm_edit_txt.gif) no-repeat  center;
+
+}
+
+.viewBoxPopupConfirmEditBtn
+{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.viewBoxPopupConfirmEditBtnYes
+{
+	margin-left: 8px;
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/yes.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+}
+
+.viewBoxPopupConfirmEditBtnNo
+{
+	margin-left: 5px;
+	width: 74px;
+	height: 35px;
+	background: url(../../img/mode_diary/no.jpg) no-repeat  center;
+	float: left;
+	cursor: hand;
+}
+
+
+
+
+
+#viewBoxContent{
+ 	background-color:#6B91B5;
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 1px solid #433B67;
+}
+
+#viewBoxContentTextBox
+{
+ 
+    width: 100%;
+	height:230px;
+}
+/*#viewBoxContentTextBox 의 높이와 같이*/
+#viewBoxContentTextBoxText
+{
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 13px;	
+	color: #444;
+	word-break:break-all;
+ 	background-color:#E1E8F0; 
+	margin: 5 5 0 5;
+    width: 100%;
+	height:230px;
+
+	border: black 2px dotted;
+ 
+}
+
+#viewBoxContentBtnBox
+{
+	padding-top: 3px;
+	height:100%;
+    width: 100%;
+	background-color: #5D6F85;
+}
+
+#viewBoxContentBtnBoxDel
+{
+	cursor: hand;
+	margin-left: 5px;
+	float: left;
+	height:16px;
+    width: 16px;
+ 
+	background: url(../../img/mode_diary/btn_delete.jpg) no-repeat  center;
+}
+
+#viewBoxContentBtnBoxEdit
+{
+	cursor: hand;
+	margin-left: 10px;
+	float: left;
+	height:16px;
+    width: 16px;
+	background: url(../../img/mode_diary/btn_edit.jpg) no-repeat  center;
+}
+
+#viewBoxContentBtnBoxClose
+{
+	cursor: hand;
+	margin-right: 5px;
+	float: right;
+	height:16px;
+    width: 16px;
+	background: url(../../img/mode_diary/btn_exit.jpg) no-repeat  center;
+}
+
+/*diff masterkey*/
+
+ 
+.viewBoxPopup_ReqKey
+{
+	background-color:#000; 
+ 
+
+    width: 100%;
+	height: 100%;
+}
+
+.viewBoxPopup_ReqKeyMsg
+{
+	margin-top:70px;
+	width: 100%;
+	height: 13px;
+	background: url(../../img/mode_diary/diffkey_txt.gif) no-repeat  center;
+}
+
+ 
+ .viewBoxPopup_ReqKeyClose
+{
+	cursor: hand;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	width:20px;
+	height: 20px;
+	background: url(../../img/mode_diary/btn_exit_bgblack.jpg) no-repeat  center;
+}
+
+
+.viewBoxPopup_ReqKeyInput
+{
+
+	margin-top:30px;
+}
+ 
+#viewBoxPopup_ReqInputKeyTxt
+{
+ margin-left:25px;
+	height: 13px;
+	background: url(../../img/mode_diary/key_pwd.gif) no-repeat  left;
+}
+#viewBoxPopup_ReqInputKeyContain{ 
+
+	float: left;
+}
+#viewBoxPopup_ReqInputKey
+{
+ margin-left:25px;
+border:1px solid #666;height:21px; width:110px;
+}
+
+#viewBoxPopup_ReqInputSubmit
+{	
+ margin-left:10px;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../../img/mode_diary/confirm_img_small.jpg) no-repeat  center;
+	cursor: hand;
+}
+
+
+
+
+
+
+
+/************************************************/
+.mediaBox {
+	background-color:#fff; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+    position:relative;
+ 
+}
+
+
+.listBoxContainer
+{
+    width: 100%;
+	height: 100%;
+	
+}
+
+.listWait{
+
+    width: 100%;
+	height: 100%;
+	background: url(../../img/mode_diary/loader.gif) no-repeat  center;
+	
+}
+
+.listNoData{
+
+    width: 100%;
+	height: 100%;
+	background: url(../../img/mode_diary/writenew.jpg) no-repeat  center;
+
+}
+
+
+
+.listBox{
+	background-color:#fff;	
+    width: 100%;
+	height: 100%;
+	padding-bottom:24px;
+    overflow:auto;
+
+}
+
+ 
+.listBox .listGroup { 
+
+	padding: 5px 13px 0;  
+    width: 100%;
+	height: 100%;
+    overflow:auto;
+}
+
+.listBox .listGroup .list{
+	/*background: url(../../img/arrow.gif) no-repeat right center; */
+	border-top: 1px solid #e3e3e3; 
+
+	height: 42px; line-height: 42px; 
+	color: #fff ;
+	padding-top: 2px;
+
+}
+
+.listBox .listGroup a:link {
+	color: #000063;
+	border: none;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:visited {
+	color: #6a6a6a;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:hover {
+	color: #0000c6;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:active {
+	color: #0000c6;
+	text-decoration:none;
+}	
+
+.listBox .listGroup .list .listImgContainer{
+	float: left;
+}
+
+.listBox .listGroup .list .listImgContainer .listImg{
+	vertical-align: middle;
+	width : 34px;
+	height : 35px;
+	border: 0;
+	margin-right: 8px;
+}
+
+.listTitle { 
+	margin-top: 5px;
+ 	margin-bottom: 5px;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 12px;	
+	color: #444;
+	word-break:break-all;
+ }
+
+
+
+
+.listBox .listGroup .list .listDate { 
+
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 12px;	
+	color: #444;
+	word-break:break-all;
+ }
+
+.listBox .listGroup .list .listDateCalClick { 
+
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 12px;	
+	color: #BD4D52;
+	word-break:break-all;
+ }
+
+
+
+.listBox .listGroup .list .listTitleParentDir { 
+	margin-top: 12px;
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 20px;	
+	font-weight: bold;
+	color: #444;
+ }
+
+.listBox .listGroup .list .number {
+	margin-top: 12px;
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 0px;	
+	color: #999;
+	visibility: hidden;
+ }
+
+/*******************************************************
+ *  calendar outer
+ *
+ *******************************************************/
+#calBox 
+{
+	border: 1px solid #666666;
+    width: 100%;
+	height: 100;
+
+}
+
+
+.calBoxPopup
+{
+	border: 1px solid #666666;
+    width: 100%;
+	height: 100;
+	 background-color:#000; 
+}
+
+.calBoxPopupWait
+{
+  width: 100%;
+	height: 100%;
+	 
+	background: url(../../img/mode_diary/loader.gif) no-repeat  center;
+}
+
+/*******************************************************
+ * calendar inner
+ *
+ *******************************************************/
+div#tcalClose
+{
+	top:0px;
+	margin:57,0,0,150;
+	width:16px;
+	height:16px;
+	 position: absolute;
+	cursor: hand;
+}
+
+ 
+
+/* calendar icon */
+img.tcalIcon {
+	cursor: pointer;
+	margin-left: 1px;
+	vertical-align: middle;
+}
+/* calendar container element */
+div#tcal {
+	margin:70,0,0,12;
+	position: absolute;
+	visibility: hidden;
+ 
+	width: 158px;
+	padding: 2px 0 0 0;
+}
+/* all tables in calendar */
+div#tcal table {
+	width: 100%;
+	border: 1px solid silver;
+	border-collapse: collapse;
+	background-color: white;
+}
+/* navigation table */
+div#tcal table.ctrl {
+	border-bottom: 0;
+}
+/* navigation buttons */
+div#tcal table.ctrl td {
+	width: 15px;
+	height: 20px;
+}
+/* month year header */
+div#tcal table.ctrl th {
+	background-color: white;
+	color: black;
+	border: 0;
+}
+
+/*month year*/
+div#tcal table.ctrl span {
+	background-color: white;
+	color: #54636B;
+	border: 0;
+	cursor: hand;
+}
+
+div#tcal table.ctrl span.over {
+	color: #954842;
+	background-color: white;
+	border: 0;
+}
+
+div#tcal table.ctrl span.out {
+ 	color: #54636B;
+	background-color: white;
+	border: 0;
+}
+
+
+/* week days header */
+div#tcal th {
+	border: 1px solid silver;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 3px 0;
+	font-family: tahoma, verdana, arial;
+	font-size: 10px;
+	background-color: #5681D0;
+	color: white;
+}
+
+/* date cells */
+div#tcal td {
+	border: 0;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 2px 0;
+	font-family: tahoma, verdana, arial;
+	font-size: 11px;
+	width: 22px;
+ 
+	color: #748493;
+}
+/* date highlight
+   in case of conflicting settings order here determines the priority from least to most important */
+div#tcal td.othermonth {
+	color: #C6C3C6;
+}
+div#tcal td.weekend {
+	background-color:#6E9CF2;
+}
+div#tcal td.today {
+ 	 text-decoration: underline;
+	 
+}
+div#tcal td.selected {
+	 
+}
+
+div#tcal td.hasdiaryThis {
+	font-weight: bold;
+	color: #394872;
+	cursor: hand;
+
+	background-color:#ADD721;
+}
+
+div#tcal td.overThis {
+ 	color: #954842;
+}
+
+div#tcal td.outThis {
+ 	color: #394872;
+}
+
+div#tcal td.hasdiaryOther {
+	font-weight: bold;
+	color: #82807E;
+	cursor: hand;
+ 
+}
+
+div#tcal td.overOther {
+ 	color: #954842;
+}
+
+div#tcal td.outOther {
+	color: #82807E;
+}
+
+/* iframe element used to suppress windowed controls in IE5/6 */
+iframe#tcalIF {
+	margin: 70,0,0,12;
+	position: absolute;
+	visibility: hidden;
+ 
+	border: 0;
+}
+/* transparent shadow */
+div#tcalShade {
+	margin: 70,0,0,12;
+	position: absolute;
+	visibility: hidden;
+ 
+}
+div#tcalShade table {
+	border: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+div#tcalShade table td {
+	border: 0;
+	border-collapse: collapse;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+body { scrollbar-shadow-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-face-color: #d9d9d9; scrollbar-3dlight-color: #d9d9d9; scrollbar-darkshadow-color: #d9d9d9; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; }

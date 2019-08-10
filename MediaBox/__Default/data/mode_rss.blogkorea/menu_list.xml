@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg' src='Music.png' />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+
+<pageGroup>
+			<title>블로그 코리아 인기글</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top50rank.xml">
+									<listImg class='listImg'  src='Feel.png' />
+									<listTitle class='listTitle'>블코랭킹 TOP50</listTitle>
+							</list>	
+
+ 
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1512.xml">
+									<listImg class='listImg' src='Entertainment.png' />
+									<listTitle class='listTitle'>영화/연예</listTitle>
+							</list>	
+	
+
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1519.xml">
+									<listImg class='listImg'  src='Travel.png'  />
+									<listTitle class='listTitle'>여행/세계</listTitle>
+							</list>	
+
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1522.xml">
+									<listImg class='listImg'  src='Food.png'  />
+									<listTitle class='listTitle'>푸드</listTitle>
+							</list>	
+
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1523.xml">
+									<listImg class='listImg' src='Photo.png' />
+									<listTitle class='listTitle'>포토</listTitle>
+							</list>		
+
+							<list  class='list' mode=''   url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1521.xml">
+									<listImg class='listImg' src='Fashion.png' />
+									<listTitle class='listTitle'>라이프/스타일</listTitle>
+							</list>			
+						
+ 
+
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1511.xml">
+									<listImg class='listImg' src='Performance.png' />
+									<listTitle class='listTitle'>문화/예술</listTitle>
+							</list>								
+
+
+							<list  class='list' mode=''   url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1514.xml">
+									<listImg class='listImg' src='Book.png' />
+									<listTitle class='listTitle'>도서</listTitle>
+							</list>
+ 
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1513.xml">
+									<listImg class='listImg' src='Comic.png' />
+									<listTitle class='listTitle'>만화</listTitle>
+							</list>								
+	
+							<list  class='list' mode=''  url=" 	http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1518.xml">
+									<listImg class='listImg' src='IT.png' />
+									<listTitle class='listTitle'>IT/게임</listTitle>
+							</list>								
+ 
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1516.xml">
+									<listImg class='listImg' src='News.png' />
+									<listTitle class='listTitle'>시사</listTitle>
+							</list>	
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1515.xml">
+									<listImg class='listImg' src='Study.png' />
+									<listTitle class='listTitle'>학문/교육</listTitle>
+							</list>	
+							<list  class='list' mode=''  url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1517.xml">
+									<listImg class='listImg' src='Business.png' />
+									<listTitle class='listTitle'>비즈니스</listTitle>
+							</list>	
+							<list  class='list' mode=''   url="http://www.blogkorea.net/bnmsvc/file/rssfeed/top130rss_1520.xml">
+									<listImg class='listImg' src='Sports.png' />
+									<listTitle class='listTitle'>스포츠/레져</listTitle>
+							</list>
+					
+					</listGroup>		
+			</page>	
+			
+</pageGroup>
+
+

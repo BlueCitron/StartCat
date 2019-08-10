@@ -1,0 +1,288 @@
+﻿/*save as utf-8*/
+
+.outMostBox{
+background-color: #000;
+
+}
+
+.wallpaper{
+background-color: #000;
+
+}
+
+
+.smallImg{
+	width : 100px;
+	filter:Alpha(opacity=60);
+}
+
+
+
+.flashObj{
+	width : 60px;
+	height: 60px;
+	/*filter:Alpha(opacity=80);*/
+}
+
+.flashObj2{
+	width : 100%;
+
+	filter:Alpha(opacity=30);
+}
+
+
+.bgimage{
+
+}
+
+.fcardTxtFront_word{
+ 
+	font-size: 20px;	
+ 	font-family: arial,helvetica,sans-serif;
+	color: #444;
+}
+
+.fcardTxtFront_mean{
+	margin-top:10px;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 15px;	
+ 
+	color: #444;
+
+}
+.fcardTxtBack_word{
+ 	font-family: arial,helvetica,sans-serif;
+	font-size: 20px;	
+ 
+	color: #444;
+
+}
+
+.fcardTxtBack_mean{
+	margin-top:10px;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 15px;	
+ 
+	color: #444;
+
+}
+
+.fcardBack{
+ 
+}
+
+.fcardFrond{}
+
+
+.btn_first_word{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_first_word.jpg) no-repeat top left; 
+ 
+ margin-left: 8px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_first_mean{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_first_mean.jpg) no-repeat top left; 
+ 
+margin-left: 8px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+ 
+
+
+.btn_effect_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_effect_on.jpg) no-repeat top left; 
+ 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_effect_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_effect_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+
+
+.btn_pron_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_pron_on.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_pron_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_pron_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_chunk_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_chunk_on.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_chunk_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_chunk_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_exam_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_exam_on.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_exam_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_exam_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+
+.btn_pron_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_pron_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_fcard_panel_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_fcard_panel_on.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_fcard_panel_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_fcard_panel_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_fcard_notifier_on{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_fcard_notifier_on.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_fcard_notifier_off{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_fcard_notifier_off.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_setup{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_setup.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+.btn_help{
+display: inline;
+float:left;
+background:none; 
+background: url(../../img/mode_desktop/btn_help.jpg) no-repeat top left; 
+ 
+margin-left: 3px;
+width:16px;
+height:16px;
+cursor:hand;
+}
+
+body { scrollbar-shadow-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-face-color: #d9d9d9; scrollbar-3dlight-color: #d9d9d9; scrollbar-darkshadow-color: #d9d9d9; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; }

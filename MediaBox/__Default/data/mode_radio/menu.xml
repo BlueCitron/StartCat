@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>영어 라디오방송</title>
+			<page  >
+					<listGroup  >	
+							<list    url="http://www.kuow.org/kuow.asx">
+									<listImg  src='music.png'  />
+									<listTitle >KUOW</listTitle>
+									<listDesc >미국 시애틀 방송</listDesc >
+									<listHome >http://www.kuow.org/</listHome >
+							</list>	 
+							<list   mode=''  url="http://www.bbc.co.uk/fivelive/live/live_int.asx">
+									<listImg  src='music.png'  />
+									<listTitle >BBC</listTitle>
+									<listDesc >영국 방송</listDesc >
+									<listHome >http://www.bbc.co.uk/</listHome >
+							</list>	
+							<list    url="http://mfile.akamai.com/80910/live/reflector:52504.asx?bkup=20166&amp;prop=n">
+									<listImg  src='music.png'  />
+									<listTitle >NEWS1130</listTitle>
+									<listDesc >캐나다 방송</listDesc >
+									<listHome >http://www.news1130.com</listHome >
+							</list>	
+							<list    url="http://www.abc.net.au/streaming/RN.asx">
+									<listImg  src='music.png'  />
+									<listTitle >ABC</listTitle>
+									<listDesc >호주 방송</listDesc >
+									<listHome >http://www.abc.net.au/</listHome >
+							</list>	 
+
+							<list    url="http://icy1.abacast.com/cbc-r1kelowna-96">
+									<listImg  src='music.png'  />
+									<listTitle >CBC Kelowna</listTitle>
+									<listDesc >캐나다 방송</listDesc >
+									<listHome >http://www.cbc.ca/radio/</listHome >
+							</list>	 
+			 
+							<list    url="http://icy1.abacast.com/cbc-r1toronto-96">
+									<listImg  src='music.png'  />
+									<listTitle >CBC Toronto</listTitle>
+									<listDesc >캐나다 방송</listDesc >
+									<listHome >http://www.cbc.ca/radio/</listHome >
+							</list>	
+							<list    url="http://icy1.abacast.com/cbc-r1montreal-96">
+									<listImg  src='music.png'  />
+									<listTitle >CBC Montreal</listTitle>
+									<listDesc >캐나다 방송</listDesc >
+									<listHome >http://www.cbc.ca/radio/</listHome >
+							</list>	
+							<list    url="http://www.tbs.seoul.kr/vod/efmlive.asx">
+									<listImg  src='music.png'  />
+									<listTitle >tbs eFM</listTitle>
+									<listDesc >한국 교통방송</listDesc >
+									<listHome >http://www.tbsefm.seoul.kr/</listHome >
+							</list>	
+							
+					</listGroup>		
+			</page>
+</pageGroup>

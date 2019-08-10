@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  src='' />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>영어권</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=us&amp;topic=h&amp;output=rss">
+									<listImg class='listImg'  src='Main.png' />
+									<listTitle class='listTitle'>주요뉴스</listTitle>
+							</list>
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=us&amp;topic=s&amp;output=rss">
+									<listImg class='listImg'  src='Sports.png' />
+									<listTitle class='listTitle'>스포츠</listTitle>
+							</list>
+								<list  class='list' mode=''   url="http://news.google.com/news?ned=us&amp;topic=e&amp;output=rss">
+									<listImg class='listImg'  src='Entertain.png' />
+									<listTitle class='listTitle'>연예</listTitle>
+							</list>
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=us&amp;topic=m&amp;output=rss">
+									<listImg class='listImg'  src='Health.png' />
+									<listTitle class='listTitle'>건강</listTitle>
+							</list>	
+				
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=us&amp;topic=t&amp;output=rss">
+									<listImg class='listImg'  src='Science.png' />
+									<listTitle class='listTitle'>과학/기술</listTitle>
+							</list>	
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=us&amp;topic=b&amp;output=rss">
+									<listImg class='listImg'  src='Business.png' />
+									<listTitle class='listTitle'>비즈니스</listTitle>
+							</list>		
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=us&amp;topic=w&amp;output=rss">
+									<listImg class='listImg'  src='World.png' />
+									<listTitle class='listTitle'>세계</listTitle>
+							</list>
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=us&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='USA.png' />
+									<listTitle class='listTitle'>미국</listTitle>
+							</list>
+
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=uk&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='England.png' />
+									<listTitle class='listTitle'>영국</listTitle>
+							</list>					
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=au&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='Australia.png' />
+									<listTitle class='listTitle'>오스트레일리아</listTitle>
+							</list>
+								<list  class='list' mode=''   url="http://news.google.com/news?ned=ca&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='Canada.png' />
+									<listTitle class='listTitle'>캐나다</listTitle>
+							</list>
+
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=nz&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='NewZealand.png' />
+									<listTitle class='listTitle'>뉴질랜드</listTitle>
+							</list>
+
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=in&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='India.png' />
+									<listTitle class='listTitle'>인도</listTitle>
+							</list>							
+								<list  class='list' mode=''   url="http://news.google.com/news?ned=en_za&amp;topic=h&amp;output=rss">
+									<listImg class='listImg'  src='SouthAfrica.png' />
+									<listTitle class='listTitle'>남아공</listTitle>
+							</list>
+							
+					</listGroup>			
+			</page>	
+</pageGroup>

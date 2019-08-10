@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>별이창</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<!-- 내그림 : CSIDL_MYPICTURES  , 내문서: CSIDL_PERSONAL -->
+
+							<list  class='list' type='starcatwnd' url="playlist">
+									<listImg class='listImg'  src='list.png'/>
+									<listTitle class='listTitle'>리스트창</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="note">
+									<listImg class='listImg'  src='note.png'/>
+									<listTitle class='listTitle'>노트창</listTitle>
+							</list>
+
+
+ 
+							<list  class='list' type='starcatwnd' url="dict">
+									<listImg class='listImg'  src='dict.png'/>
+									<listTitle class='listTitle'>사전창</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="example">
+									<listImg class='listImg'  src='example.png'/>
+									<listTitle class='listTitle'>예제창</listTitle>
+							</list>
+
+							<list  class='list' type='starcatwnd' url="image">
+									<listImg class='listImg' src='img.png' />
+									<listTitle class='listTitle'>이미지창</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="control_showall">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>모두 보이기</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="control_hideall">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>모두 닫기</listTitle>
+							</list>
+					</listGroup>		
+			</page>		
+</pageGroup>

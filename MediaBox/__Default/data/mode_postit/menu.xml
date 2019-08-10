@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>포스트잇</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<!-- 내그림 : CSIDL_MYPICTURES  , 내문서: CSIDL_PERSONAL -->
+							<list  class='list' type='starcatwnd' url="newnote">
+									<listImg class='listImg' src='memo.png' />
+									<listTitle class='listTitle'>새 메모</listTitle>
+							</list>
+ 			 
+ 							<list  class='list' type='starcatwnd' url="bring_to_front">
+									<listImg class='listImg'   src='up.png'/>
+									<listTitle class='listTitle'>메모 앞쪽으로</listTitle>
+							</list>	
+	
+ 							<list  class='list' type='starcatwnd' url="show">
+									<listImg class='listImg'  src='show.png' />
+									<listTitle class='listTitle'>메모 보이기</listTitle>
+							</list>		
+ 							<list  class='list' type='starcatwnd' url="hide">
+									<listImg class='listImg'   src='hide.png'/>
+									<listTitle class='listTitle'>메모 감추기</listTitle>
+							</list>	
+					</listGroup>		
+			</page>									
+</pageGroup>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>유튜브</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured?start-index=1">
+									<listImg class='listImg'  src="Featured.png" />
+									<listTitle class='listTitle'>추천 동영상</listTitle>
+							</list>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed?time=today">
+									<listImg class='listImg'  src="MostView.png" />
+									<listTitle class='listTitle'>일간 많이 본 동영상</listTitle>
+							</list>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?time=today">
+									<listImg class='listImg'  src="TopRate.png" />
+									<listTitle class='listTitle'>일간 베스트 </listTitle>
+							</list>	
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/most_discussed?time=today">
+									<listImg class='listImg'  src="MostDiscuss.png" />
+									<listTitle class='listTitle'>일간 최다 댓글 </listTitle>
+							</list>	
+	
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/most_responded?time=today">
+									<listImg class='listImg'  src="MostRespond.png" />
+									<listTitle class='listTitle'>일간 최다 동영상 응답</listTitle>
+							</list>		
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/top_favorites?time=today">
+									<listImg class='listImg'  src="MostFavorite.png" />
+									<listTitle class='listTitle'>일간 최다 즐겨찾기</listTitle>
+							</list>	
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/most_recent">
+									<listImg class='listImg'  src="Recent.png" />
+									<listTitle class='listTitle'>최신 동영상</listTitle>
+							</list>	
+	
+
+					
+						
+					</listGroup>		
+			</page>
+</pageGroup>
+
+

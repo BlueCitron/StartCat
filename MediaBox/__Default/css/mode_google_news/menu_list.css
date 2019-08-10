@@ -1,0 +1,144 @@
+﻿/*important - save as utf-8*/
+
+
+
+.headerBox {
+	font-family: arial,helvetica,sans-serif;
+	padding-left: 5px;
+	height: 24	px;
+	width: 100%;
+	line-height: 24px;
+
+
+	overflow:hidden;
+	position:relative;
+
+	background-color:#27415D;
+
+}
+
+
+.headerTitle {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial,helvetica,sans-serif;	
+	text-align: left;
+	float: left;
+	
+	top: 50%;
+	margin-top : -12px;
+	position:relative;
+}
+
+.headerTitle a {
+	color:#fff;
+	border: none;
+	text-decoration:none;
+}
+
+.headerTitle a:hover {
+	color:#ffa426;
+	border: none;
+	text-decoration:none;
+}
+
+.headerBoxCursor {
+	height : 1.3em;
+	font-size : 11px;
+	color : #bbbbbb;
+	float : right;
+}
+
+
+.mediaBox {
+	background-color:#fff; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+    position:relative;
+}
+
+
+.listBox{
+	background-color:#fff;	
+    width: 100%;
+	height: 100%;
+	padding-bottom:24px;
+    overflow:auto;
+
+}
+
+
+
+.listBox .listGroup { 
+
+	padding: 5px 13px 0;  
+    width: 100%;
+	height: 100%;
+    overflow:auto;
+}
+
+.listBox .listGroup .list{
+	/*background: url(../../img/arrow.gif) no-repeat right center; */
+	border-top: 1px solid #e3e3e3; 
+
+	height: 42px; line-height: 42px; 
+	color: #fff ;
+
+}
+
+.listBox .listGroup a:link {
+	color: #000063;
+	border: none;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:visited {
+	color: #6a6a6a;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:hover {
+	color: #0000c6;
+	text-decoration:none;
+
+}
+
+.listBox .listGroup a:active {
+	color: #0000c6;
+	text-decoration:none;
+}	
+
+.listBox .listGroup .list .listImgContainer{
+	float: left;
+}
+
+.listBox .listGroup .list .listImgContainer .listImg{
+	vertical-align: middle;
+	width : 34px;
+	height : 35px;
+	border: 0;
+	margin-right: 8px;
+}
+
+.listBox .listGroup .list .listTitle { 
+	margin-top: 12px;
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 12px;	
+	color: #444;
+ }
+.listBox .listGroup .list .number {
+	margin-top: 12px;
+	float: left;
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size: 12px;	
+	color: #999;
+ }
+
+
+body { scrollbar-shadow-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-face-color: #d9d9d9; scrollbar-3dlight-color: #d9d9d9; scrollbar-darkshadow-color: #d9d9d9; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; }

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>별점 미만</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<!-- 내그림 : CSIDL_MYPICTURES  , 내문서: CSIDL_PERSONAL -->
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_1">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 1 미만</listTitle>
+							</list>		
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_2">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 2 미만</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_3">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 3 미만</listTitle>
+							</list>	
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_4">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 4 미만</listTitle>
+							</list>
+					</listGroup>		
+			</page>		
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<!-- 내그림 : CSIDL_MYPICTURES  , 내문서: CSIDL_PERSONAL -->
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_5">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 5 미만</listTitle>
+							</list>		
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_6">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 6 미만</listTitle>
+							</list>
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_7">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 7 미만</listTitle>
+							</list>	
+							<list  class='list' type='starcatwnd' url="wordnote_grade_below_8">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>별점 8 미만</listTitle>
+							</list>	
+					</listGroup>		
+			</page>	
+</pageGroup>

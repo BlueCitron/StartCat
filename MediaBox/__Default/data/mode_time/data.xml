@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<pageGroup>
+ 
+			<page class="page2">
+				<objectSite class="uniclockContainer1">
+					<object class="uniclock1" type="application/x-shockwave-flash">
+					<!--
+						<param name="movie" value="http://www.clocklink.com/clocks/0012-silver.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+						-->
+					</object>
+				</objectSite>
+			</page>	
+			<page class="page1">
+				<objectSite class="simpleClockContainer">
+					<object class="" type="application/x-shockwave-flash">
+
+						<param name="wmode" value="transparent" />
+						<param name='movie' value='http://www.weatherlet.com/weather.swf?locid=KSXX0037&amp;unit=m' />
+					</object>
+				</objectSite>
+			</page>		
+			<page class="page2">
+				<objectSite class="uniclockContainer1">
+					<object class="uniclock1" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0012-orange.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+
+			<page class="page2">
+				<objectSite class="uniclockContainer1">
+					<object class="uniclock1" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0012-dkblue.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+			<page class="page2">
+				<objectSite class="uniclockContainer1">
+					<object class="uniclock1" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0012-magenta.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+  
+			<page class="page3">
+				<objectSite class="uniclockContainer3">
+					<object class="uniclock3" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0001-orange.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+			<page class="page3">
+				<objectSite class="uniclockContainer3">
+					<object class="uniclock3" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0001-yellow.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+			<page class="page3">
+				<objectSite class="uniclockContainer3">
+					<object class="uniclock3" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0001-green.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+			<page class="page3">
+				<objectSite class="uniclockContainer3">
+					<object class="uniclock3" type="application/x-shockwave-flash">
+						<param name="movie" value="http://www.clocklink.com/clocks/0001-blue.swf?TimeZone=GMT0900" />
+						<param name="wmode" value="transparent" />
+					</object>
+				</objectSite>
+			</page>	
+				
+</pageGroup>

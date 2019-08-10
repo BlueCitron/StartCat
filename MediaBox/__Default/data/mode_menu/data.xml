@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<pageGroup>
+			<!-- wallpaperMode값: layer,backgroundImage 
+				 wallpaperMode값이 layer 이고 버튼이 png일경우 wallpaper도 png파일이어야 한다.
+				 또한 css의 mediaBox의 background-color값이 버튼 타이틀 글씨색이 되고 buttonText는 적용안된다.(ie6에서 png반투명 효과 지원안하기 때문에 발생되는 문제)
+
+				 backgroundImage 일경우는 wallpaper image가 미디어박스 중앙에 위치한다. 
+				 backgroundImage 일경우는 wallpaper image의 포멧은 아무거나 상관없다.
+				 단지 width: 184px에 맞춰서 이미지 크기 변환을 해주면 좋다.
+
+				 popup mediabox  크기 지정(픽셀단위 문자열로 지정): '0' 으로 설정하거나 설정하지 않으면 디폴트 px값으로 설정된다.
+				 modeWidth = '100' modeHeight = '100'
+			 -->
+			<page class="page" wallpaper="Wallpaper.png" wallpaperMode="layer">
+
+
+					<buttonGroup class="buttonGroup">
+							<button mode='mode_desktop' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Dashboard.png'  alt='단어장'/>	
+									<buttonName class="buttonText" name='단어장' />
+							</button>	
+							<button mode='mode_jump' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Jump.png'  alt='점프'/>	
+									<buttonName class="buttonText" name='점프' />
+							</button>
+							<button mode='mode_starcatfile' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/StarcatBook.png' alt='별이파일'/>	
+									<buttonName class="buttonText" name='별이파일' />
+							</button>
+					</buttonGroup>
+					<buttonGroup class="buttonGroup">
+
+							<button mode='mode_flashcard' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/FlashCard.png'   alt='프리스타일 암기카드' />	
+									<buttonName class="buttonText" name='프리스타일' />
+							</button>	
+	 
+							<button mode='mode_leitner' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Leitner.png'   alt='라이트너 학습법' />	
+									<buttonName class="buttonText" name='라이트너' />
+							</button>
+
+							<button mode='mode_ebbing' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Ebbinghaus.png'   alt='에빙하우스 학습법' />	
+									<buttonName class="buttonText" name='에빙하우스' />
+							</button>
+
+					</buttonGroup>		
+						<buttonGroup class="buttonGroup">
+							<button mode='mode_shoutcast' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/ShoutCast.png' alt='음악방송(shoutcast)'/>	
+									<buttonName class="buttonText" name='음악방송' />
+							</button>
+							<button mode='mode_radio' submode='' class="button" modeWidth='800' modeHeight='630'>			
+									<buttonImg class="buttonImg" src='Icons/Radio.png' alt='영어 라디오 방송' />	
+									<buttonName class="buttonText" name='영어라디오' />
+							</button>	
+
+ 							<button mode='mode_diary' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Diary.png'  alt='일기장'/>	
+									<buttonName class="buttonText" name='일기장' />
+							</button>
+
+					</buttonGroup>	
+						<buttonGroup class="buttonGroup">
+							<button mode='mode_picture' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/SlideShow.png'  alt='카드 슬라이드쇼' />	
+									<buttonName class="buttonText" name='카드slide' />
+							</button>	
+							<button mode='mode_util' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Utility.png' alt='유틸리티'/>	
+									<buttonName class="buttonText" name='유틸리티' />
+							</button>
+							<button mode='mode_starcatwnd' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/StarcatWnd.png'  alt='별이창' />	
+									<buttonName class="buttonText" name='별이창' />
+							</button>	
+
+					</buttonGroup>
+		
+			</page>
+			<page class="page" wallpaper="Wallpaper1.png" wallpaperMode="layer">
+					
+					<buttonGroup class="buttonGroup">
+  							<button mode='mode_wordstat' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/WordStat.png'  alt='단어통계'/>	
+									<buttonName class="buttonText" name='단어통계' />
+							</button>
+							<button mode='mode_postit' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Postit.png'  alt='포스트잇'/>	
+									<buttonName class="buttonText" name='포스트잇' />
+							</button>		
+
+ 	
+							<button mode='mode_time' class="button" >		
+									<buttonImg class="buttonImg" src='Icons/Clock.png'  alt='시계'/>	
+									<buttonName class="buttonText" name='시계' />
+							</button>	
+					</buttonGroup>	
+					<buttonGroup class="buttonGroup">
+							<button mode='mode_youtube' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/YouTube.png'  alt='유튜브'/>	
+									<buttonName class="buttonText" name='유튜브' />
+							</button>
+							<button mode='mode_google_news' class="button" modeWidth='800' modeHeight='630'>			
+									<buttonImg class="buttonImg" src='Icons/News.png'  alt='구글뉴스'/>	
+									<buttonName class="buttonText" name='구글뉴스' />
+							</button>
+	
+							<button mode='mode_rss' submode='blogkorea' class="button" modeWidth='800' modeHeight='630'>			
+									<buttonImg class="buttonImg" src='Icons/Rss.png' alt='블로그 코리아' />	
+									<buttonName class="buttonText" name='BlogKorea' />
+							</button>	
+					</buttonGroup>
+
+
+
+					<buttonGroup class="buttonGroup">
+							<button mode='mode_game' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Game.png'  alt='게임' />	
+									<buttonName class="buttonText" name='게임' />
+							</button>
+							<button mode='mode_setup' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/Settings.png' alt='환경설정' />	
+									<buttonName class="buttonText" name='환경설정' />
+							</button>	
+					</buttonGroup>	
+ 
+
+
+<!--
+							<button mode='mode_shoutcast' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/ShoutCast.png' alt='음악방송(shoutcast)'/>	
+									<buttonName class="buttonText" name='음악방송' />
+							</button>
+							<button mode='mode_music' class="button" >								
+									<buttonImg class="buttonImg" src='Icons/Music.png' alt='음악앨범' />	
+									<buttonName class="buttonText" name='음악앨범' />
+							</button>
+							<button mode='mode_whitenoise' class="button" >			
+									<buttonImg class="buttonImg" src='Icons/WhiteNoise.png' alt='백색소음'/>	
+									<buttonName class="buttonText" name='백색소음' />
+							</button>
+-->
+			</page>
+
+</pageGroup>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>YouTube</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured?start-index=1&amp;max-results=10">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>Featured</listTitle>
+							</list>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/most_viewed?start-index=1&amp;time=today&amp;max-results=10">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>Most viewed</listTitle>
+							</list>
+							<list  class='list' mode='' url="http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=1&amp;time=today&amp;max-results=10">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>Top rated</listTitle>
+							</list>							
+
+					</listGroup>		
+			</page>
+</pageGroup>
+
+

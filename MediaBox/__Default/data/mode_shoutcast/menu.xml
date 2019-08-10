@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>음악방송</title>
+			<page  >
+					<listGroup  >	
+
+							<list   mode=''  url="http://m4u.saycast.com">
+									<listImg  src='music.png'  />
+									<listTitle >M4UCAST</listTitle>
+									<listGenre >가요</listGenre >
+									<listHome >http://m4ucast.co.kr/</listHome >
+							</list>	
+							<list    url="http://mukulcast.com">
+									<listImg  src='music.png'  />
+									<listTitle >뮤클캐스트</listTitle>
+									<listGenre >가요</listGenre >
+									<listHome >http://www.mukulcast.com/</listHome >
+							</list>	
+							<list    url="http://miin.saycast.com">
+									<listImg  src='music.png'  />
+									<listTitle >미인캐스트</listTitle>
+									<listGenre >가요</listGenre >
+									<listHome >http://miin.saycast.com</listHome >
+							</list>	
+							<list    url="http://www.977music.com/tunein/web/country.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Country</listTitle>
+									<listGenre >Country</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+							<list    url="http://zoo.inlive.co.kr:8080">
+									<listImg  src='music.png'  />
+									<listTitle >블루 FM</listTitle>
+									<listGenre >악기 음악</listGenre >
+									<listHome >http://www.bluefm.net/</listHome >
+							</list>	
+							<list    url="http://www.977music.com/tunein/web/xmas.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Holiday Music</listTitle>
+									<listGenre >Holiday Music</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+							<list    url="http://www.977music.com/tunein/web/hitz.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 The Hitz Channel</listTitle>
+									<listGenre >팝</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+							<list    url="http://www.radioswisspop.ch/live/mp3.asx">
+									<listImg  src='music.png'  />
+									<listTitle >Radio Swiss Pop</listTitle>
+									<listGenre >팝</listGenre >
+									<listHome >http://www.radioswisspop`.ch/en</listHome >
+							</list>
+							<list    url="http://www.frenchkissfm.com/flashplayer/tunein-station.wvx">
+									<listImg  src='music.png'  />
+									<listTitle >French Kiss FM</listTitle>
+									<listGenre >댄스</listGenre >
+									<listHome >http://www.frenchkissfm.com</listHome >
+							</list>
+							<list    url="http://scfire-mtc-aa06.stream.aol.com:80/stream/1010">
+									<listImg  src='music.png'  />
+									<listTitle >S K Y . F M</listTitle>
+									<listGenre >재즈</listGenre >
+									<listHome ></listHome >
+							</list>
+							<list    url="http://www.radioswissjazz.ch/live/mp3.asx">
+									<listImg  src='music.png'  />
+									<listTitle >Radio Swiss Jazz</listTitle>
+									<listGenre >재즈</listGenre >
+									<listHome >http://www.radioswissjazz.ch/en</listHome >
+							</list>
+							<list    url="http://www.977music.com/tunein/web/smoothjazz.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Smooth Jazz</listTitle>
+									<listGenre >Smooth Jazz</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+
+							<list    url="http://www.977music.com/tunein/web/alt128.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Alternative</listTitle>
+									<listGenre >Alternative</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+							<list    url="http://www.977music.com/tunein/web/alt128.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Oldies</listTitle>
+									<listGenre >Oldies</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+							<list    url="http://www.977music.com/tunein/web/mix.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 The Mix</listTitle>
+									<listGenre >The Mix</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+
+
+							<list    url="http://www.977music.com/tunein/web/80s.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 The 80s Channel</listTitle>
+									<listGenre >팝</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+							<list    url="http://www.977music.com/tunein/web/90s.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 The 90s</listTitle>
+									<listGenre >The 90s</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+							<list    url="http://www.977music.com/tunein/web/jamz.asx">
+									<listImg  src='music.png'  />
+									<listTitle >.977 Jamz</listTitle>
+									<listGenre >Jamz</listGenre >
+									<listHome >http://www.977music.com</listHome >
+							</list>
+
+
+							<list    url="http://www.977music.com/tunein/web/oldies.asx">
+									<listImg  src='music.png'  />
+									<listTitle >Radio Swiss Classic</listTitle>
+									<listGenre >클래식</listGenre >
+									<listHome >http://www.radioswissclassic.ch/en</listHome >
+							</list>
+							<list    url="http://wm-live.abacast.com/classical899-classical899-64?.wma">
+									<listImg  src='music.png'  />
+									<listTitle >AllClassical </listTitle>
+									<listGenre >클래식</listGenre >
+									<listHome ></listHome >
+							</list>	
+							<list    url="mms://nyc01.egihosting.com/Beethoven">
+									<listImg  src='music.png'  />
+									<listTitle >Beethoven Radio </listTitle>
+									<listGenre >클래식</listGenre >
+									<listHome ></listHome >
+							</list>	
+							<list    url="mms://wm.3wk.com/cma1">
+									<listImg  src='music.png'  />
+									<listTitle >ClassicalMusic America</listTitle>
+									<listGenre >클래식</listGenre >
+									<listHome >http://www.waterhill.net</listHome >
+							</list>	
+
+							<list    url="http://www.cpr.org/listen/live_classical.asx?classicalwebcast.com">
+									<listImg  src='music.png'  />
+									<listTitle >CPR </listTitle>
+									<listGenre >클래식</listGenre >
+									<listHome ></listHome >
+							</list>	
+					</listGroup>		
+			</page>
+</pageGroup>

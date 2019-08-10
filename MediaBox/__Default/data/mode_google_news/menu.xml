@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>Google News</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='submenu'   url="kr_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>한국</listTitle>
+							</list>
+							<list  class='list' type='submenu'   url="global_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>미국</listTitle>
+							</list>	
+
+
+							<list  class='list' type='submenu'   url="fr_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>프랑스</listTitle>
+							</list>
+							<list  class='list' type='submenu'   url="de_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>독일</listTitle>
+							</list>
+					</listGroup>		
+			</page>	
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' type='submenu'   url="es_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>스페인</listTitle>
+							</list>
+							<list  class='list' type='submenu'   url="pt_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>포르투갈</listTitle>
+							</list>
+
+							<list  class='list' type='submenu'   url="ru_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>러시아</listTitle>
+							</list>
+							<list  class='list' type='submenu'   url="tw_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>타이완</listTitle>
+							</list>
+
+					</listGroup>		
+			</page>	
+			<page class="listBox">
+					<listGroup class='listGroup'>
+
+							<list  class='list' type='submenu'   url="cn_menu.xml">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>중국</listTitle>
+							</list>	
+					</listGroup>		
+			</page>	
+		
+</pageGroup>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<wallpaperGroup>
+	<!-- wallpaper class로 background-img를 줄 수 있다 -->
+	<wallpaper class="wallpaper"> 
+	<!--  starcat/image의 이미지 크기를 px 로 적용하고 싶으면 css에서 width : some px로 적용
+		   css에서는 %로 이미지 크기를 조정할 수 없다.
+		   starcat/backgroundImg 와 같이 %로는 설정지원하지 않는다.
+	-->
+<!--
+				<drag class="drag" id="id_7">
+
+					<object class="smallImg" type='starcat/image'> 
+						<param name='src' value='2.jpg' />
+			
+					</object>
+				</drag>		
+				<drag class="drag" id="id_6">
+					<object class="smallImg" type='starcat/image'> 
+						<param name='src' value='3.jpg' />
+					
+					</object>
+				</drag>				
+
+				<drag class="drag" id="id_1">
+					<object class="" type='application/x-shockwave-flash' > 
+						<param name='movie' value='http://s3.amazonaws.com/wbx-files/maukie.swf?widget_width=330&amp;widget_height=400' />
+						<param name='wmode' value='transparent' />
+					</object>
+				</drag>
+	-->			
+<!--
+				<drag class="drag" id="id_2">
+					<object class="" type='application/x-shockwave-flash' > 
+						<param name='movie' value='http://www.weatherlet.com/weather.swf?locid=KSXX0037&amp;unit=m' />
+						<param name='wmode' value='transparent' />
+					</object>
+				</drag>	
+	
+				<drag class="drag" id="id_5">
+					<object class="flashObj" type='application/x-shockwave-flash' > 
+						<param name='movie' value='clock_05.swf' />
+						<param name='wmode' value='transparent' />
+					</object>
+				</drag>	
+	-->
+<!--				
+				<drag class="drag" id="id_3">
+					<object class="" type='application/x-shockwave-flash' > 
+						<param name='movie' value='http://www.uniqlo.jp/uniqlock/swf/blog_small.swf?user_id=901Hpafe6e4PZocC' />				
+						<param name='wmode' value='transparent' />
+					</object>
+				</drag>	
+			
+
+				<drag class="drag" id="id_5">
+					<object class="flashObj" type='application/x-shockwave-flash' > 
+						<param name='movie' value='clock_05.swf' />
+						<param name='wmode' value='transparent' />
+					</object>
+				</drag>		
+-->
+				<drag class="drag" id="id_4">
+					<!-- mode: stretch,tile,center,scale -->
+					<!-- mode가 center일경우 width,height % 로만 적용가능하다 
+						 px 로 적용하고 싶으면 css에서 width : some px로 적용
+						 css에서는 %로 이미지 크기를 조정할 수 없다.
+					-->
+					<object  class="bgimage" type='starcat/backgroundImg'>  
+						<param name='src' value='Wallpaper.jpg' />
+						<param name='mode' value='stretch' /> 
+<!--						
+						<param name='width' value='100%' /> 
+-->						
+					</object>
+				</drag>						
+
+	</wallpaper>
+</wallpaperGroup>
+

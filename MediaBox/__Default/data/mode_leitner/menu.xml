@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>라이트너 학습법</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<!-- 내그림 : CSIDL_MYPICTURES  , 내문서: CSIDL_PERSONAL -->
+							<list  class='list' type='' url="normal">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>일반형</listTitle>
+							</list>
+							<list  class='list' type='' url="quiz">
+									<listImg class='listImg'  />
+									<listTitle class='listTitle'>퀴즈형</listTitle>
+							</list>
+							<list  class='list' type='scramble' url="wordgame">
+									<listImg class='listImg'  src='game.png'/>
+									<listTitle class='listTitle'>워드 스크램블</listTitle>
+							</list>
+							<list  class='list' type='hangman' url="wordgame">
+									<listImg class='listImg'  src='game.png'/>
+									<listTitle class='listTitle'>그린피스 행맨</listTitle>
+							</list>
+							<list  class='list' type='hangmanImgMatch' url="wordgame">
+									<listImg class='listImg'  src='game.png'/>
+									<listTitle class='listTitle'>이미지 연상 행맨</listTitle>
+							</list>
+					</listGroup>		
+			</page>									
+</pageGroup>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+	listImg는 다음과 같이 설정할수 있다.
+	1. <listImg class='listImg' src='rss.jpg' hoverSrc='rss_hover.jpg' />
+		경로시 시작위치는 img/특정mode/
+	2. <listImg class='listImg' src='http://somehost.com/rss.jpg' hoverSrc='http://somehost.com/rss_hover.jpg' />
+		url 일경우 해당 웹서버에서 가져온다.
+	3. <listImg class='listImg'  src='' />
+		설정하지 않을 경우 상위메뉴의 아이콘을 사용
+-->
+
+<pageGroup>
+			<title>중국</title>
+			<page class="listBox">
+					<listGroup class='listGroup'>
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=cn&amp;topic=h&amp;output=rss">
+									<listImg class='listImg'  src='Main.png' />
+									<listTitle class='listTitle'>주요뉴스</listTitle>
+							</list>
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=cn&amp;topic=s&amp;output=rss">
+									<listImg class='listImg'  src='Sports.png' />
+									<listTitle class='listTitle'>스포츠</listTitle>
+							</list>
+								<list  class='list' mode=''   url="http://news.google.com/news?ned=cn&amp;topic=e&amp;output=rss">
+									<listImg class='listImg'  src='Entertain.png' />
+									<listTitle class='listTitle'>연예</listTitle>
+							</list>
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=cn&amp;topic=m&amp;output=rss">
+									<listImg class='listImg'  src='Health.png' />
+									<listTitle class='listTitle'>건강</listTitle>
+							</list>
+						
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=cn&amp;topic=t&amp;output=rss">
+									<listImg class='listImg'  src='Science.png' />
+									<listTitle class='listTitle'>과학/기술</listTitle>
+							</list>	
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=cn&amp;topic=b&amp;output=rss">
+									<listImg class='listImg'  src='Business.png' />
+									<listTitle class='listTitle'>비즈니스</listTitle>
+							</list>	
+							<list  class='list' mode=''  url="http://news.google.com/news?ned=cn&amp;topic=w&amp;output=rss">
+									<listImg class='listImg'  src='World.png' />
+									<listTitle class='listTitle'>세계</listTitle>
+							</list>
+							<list  class='list' mode=''   url="http://news.google.com/news?ned=cn&amp;topic=n&amp;output=rss">
+									<listImg class='listImg'  src='China.png' />
+									<listTitle class='listTitle'>중국</listTitle>
+							</list>
+
+					</listGroup>			
+			</page>			
+
+</pageGroup>

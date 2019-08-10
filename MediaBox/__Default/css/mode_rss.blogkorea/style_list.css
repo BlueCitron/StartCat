@@ -1,0 +1,287 @@
+﻿/*save as utf-8*/
+.feedNodata{
+	background: url(../../img/feedNodata.gif) no-repeat  center 40%; 
+	background-color:#000; 
+}
+
+
+.headerBox {
+	font-family: arial,helvetica,sans-serif;
+	padding-left: 5px;
+	height: 24	px;
+	width: 100%;
+	line-height: 24px;
+	color:#fff;
+
+	overflow:hidden;
+	position:relative;
+
+	background-color:#6F0000;
+
+}
+
+
+
+.headerTitle {
+
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial,helvetica,sans-serif;	
+	text-align: left;
+	float: left;
+	
+	top: 50%;
+	margin-top : -12px;
+	position:relative;
+}
+
+.headerTitle a {
+	color:#fff;
+	border: none;
+	text-decoration:none;
+}
+
+.headerTitle a:hover {
+	color:#ffa426;
+	border: none;
+	text-decoration:none;
+}
+
+.headerBoxCursor {
+	height : 1.3em;
+	font-size : 11px;
+	color : #bbbbbb;
+	float : right;
+}
+
+
+
+.mediaBox {
+	background-color:#fff; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.movePreBox{
+	float: right;
+	position:relative;
+}
+
+.movePreImg {
+	cursor: pointer;
+	width: 36px;
+	height: 10px;
+}
+
+
+
+.mediaInfoBox {
+	width:100%;
+	height:100%;
+
+	overflow:hidden;
+	position:relative;
+
+	padding-top: 24px;
+	top : -24px;
+	
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.mediaInfoBoxSite {
+	width:100%;
+	height:100%;
+	overflow:auto;
+	
+
+}
+
+.mediaInfoList {
+	/*background: url(../../img/arrow.gif) no-repeat right center; */
+	border-top: 1px solid #e3e3e3; 
+	width: 100%;
+	height: 120px; line-height: 14px; 
+	color: #fff ;
+	background-color: #fff;
+
+	position:relative;
+}
+
+.mediaInfoListVisited{
+	/*background: url(../../img/arrow.gif) no-repeat right center; */
+	border-top: 1px solid #e3e3e3; 
+	width: 100%;
+	height: 130px; line-height: 14px; 
+	color: #fff ;
+
+	background-color: #ECECEC;
+
+	position:relative;
+}
+
+
+.rssPage{
+
+	left: 50%;
+	margin-left: -300px;
+
+	width: 600px;
+	position: absolute;
+	overflow:hidden;
+	
+	padding: 0px,10px,0px,10px;
+
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+
+	
+	
+}
+
+.rssContainer{
+
+    overflow:auto;
+
+	text-align: left;
+
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.25em;
+
+
+	padding: 5;
+
+}
+
+.rssContainer .rssContent { 
+clear: both;
+ 
+	}
+
+.rssContainer .rssPubDate{
+	float: right;
+	color: #6a6a6a;
+	padding  : 5px,0,0,5px;
+	font-size: 9pt;
+
+}
+ 
+.rssContainer .rssTitle { 
+	float: left;
+	margin-top :5px;
+	margin-bottom :10px;			
+	font-size: 12px; 
+	font-weight: bold;
+	color:#000063; 
+
+	width: 500px;
+	
+	
+	/*border: 1px solid #666666;*/
+ }
+	
+					
+.rssTitle a:link {
+	color: #000063;
+	border: none;
+	text-decoration:none;
+
+}
+
+.rssTitle a:visited {
+	color: #6a6a6a;
+	text-decoration:none;
+
+}
+
+.rssTitle a:hover {
+	color: #0000c6;
+	text-decoration:none;
+
+}
+
+.rssTitle a:active {
+	color: #0000c6;
+	text-decoration:none;
+}					 
+					 
+.rssTitle .rssNumber { 
+ 	width: 20px;
+	height: 14px;
+	font-size: 12px; 
+	font-weight: bold;
+	color:#9EA174;
+	background-color: #FFF7BD;
+	
+	text-align: center;
+	margin-right: 5px;
+	border: 1px solid #e3e3e3; 
+	/*border: 1px solid #666666;*/
+ }
+
+
+
+.rssPublisher{
+	font-family: 돋움, dotum, 굴림, Gulim, AppleGothic, sans-serif;
+	color:#C88282; font-size:11px; font-weight:normal;
+
+}
+
+.rssImgInfo{
+	overflow: hidden;
+	width : 100px;
+	float:left;
+	margin:2px 2px 2px 0pt;
+}
+
+.rssImgInfo img{
+	border: 0;
+	display: block;
+
+}
+
+.rssSummary { 
+	color: #2D2C2D;
+	margin: 5px 0pt;
+	
+	
+	/*border: 1px solid #666666;*/
+ }
+
+
+
+
+body { scrollbar-shadow-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-face-color: #d9d9d9; scrollbar-3dlight-color: #d9d9d9; scrollbar-darkshadow-color: #d9d9d9; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; }
+
+.mediaPlayBox {
+	width:100%;
+	height:100% ;
+
+	left: 0px;
+	top: 24px;
+	overflow:hidden;
+	position:absolute;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.mediaPlayerSite{
+	padding-top: 24px;
+	left: 0px;
+	top: -24px;
+
+
+}
+
+.mediaPlayerWait{
+
+}
+

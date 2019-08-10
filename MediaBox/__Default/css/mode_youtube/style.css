@@ -1,0 +1,187 @@
+﻿/*save as utf-8*/
+.feedNodata{
+	background: url(../../img/feedNodata.gif) no-repeat  center 40%; 
+	background-color:#000; 
+}
+.mediaBox {
+	background-color:#fff; 
+	border: 1px solid #666666;
+
+    width: 100%;
+	height: 100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.headerBox {
+	font-family: arial,helvetica,sans-serif;
+	padding: 3px 5px;
+	border: 1px solid #666666;
+	*background-color: #666666; 
+	font-size: 12px;
+	color: #FFFFFF;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+        filter:Alpha(opacity=95);
+        _background:#666666;
+        _position:static;	
+}
+
+.headerBoxCursor {
+	height : 1.3em;
+	font-size : 11px;
+	color : #bbbbbb;
+	float : right;
+}
+
+
+.headerTitle {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial,helvetica,sans-serif;	
+	text-align: left;
+	float: left;
+}
+
+.headerTitle a {
+	color:#fff;
+	border: none;
+	text-decoration:none;
+}
+
+.headerTitle a:hover {
+	color:#ffa426;
+	border: none;
+	text-decoration:none;
+}
+
+
+.movePreBox{
+	float: right;
+	position:relative;
+}
+
+.movePreImg {
+	cursor: pointer;
+	width: 36px;
+	height: 10px;
+}
+
+
+
+.mediaInfoBox {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.mediaInfoInnerBox {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+}
+
+.mediaPlayBox {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.mediaPlayerSite{
+	left: 0px;
+	top: -15px;
+}
+
+.mediaPlayerWait{
+
+}
+
+
+.rating {
+	font-size: 11px;
+/*
+	margin-top: 3px;
+	font-size: 11px;
+	height: 14px; 
+*/
+	}
+
+.ratingCount {
+	font-size: 11px;
+}
+
+.icn_star_full_11x11gif {
+	background: transparent url(../../img/mode_youtube/ratestar.gif) no-repeat scroll 0px 0px;
+	width: 11px;
+	height: 11px;
+}
+.icn_star_half_11x11gif {
+	background: transparent url(../../img/mode_youtube/ratestar.gif) no-repeat scroll -11px 0px;
+	width: 11px;
+	height: 11px;
+}
+.icn_star_empty_11x11gif {
+	background: transparent url(../../img/mode_youtube/ratestar.gif) no-repeat scroll -22px 0px;
+	width: 11px;
+	height: 11px;
+}
+
+
+.smgrayText { font-size: 11px; color: #666; }
+.smdgText { font-size: 11px; color: #333; }
+.smNumber { font-size: 11px;  }
+.vimg120 {
+	width: 120px;
+	height: 90px;m
+	cursor: pointer;
+	}
+.videoIconWrapperInner {
+	overflow: hidden;
+	width: 120px;
+	height: 72px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.videoIconWrapperInner img {
+	margin-top: -10px;
+}
+.videoIconWrapperOuter {
+	margin-top: 10px;
+	width: 122px;
+	border: 1px solid #999;
+}
+
+.marT5 { margin-top: 5px; }
+.vtitle { 
+font-family:돋움,dotum,굴림,Gulim,AppleGothic,sans-serif;
+font-weight: bold; 
+font-size: 12px; 
+width: 122px ; 
+color:#666666; 
+height: 60px; 
+overflow:auto ;
+text-overflow:ellipsis; 
+text-decoration:underline;
+cursor: pointer;
+ }
+					 
+
+
+.largeTitles {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+body { scrollbar-shadow-color: #ffffff; scrollbar-highlight-color: #ffffff; scrollbar-face-color: #d9d9d9; scrollbar-3dlight-color: #d9d9d9; scrollbar-darkshadow-color: #d9d9d9; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; }
